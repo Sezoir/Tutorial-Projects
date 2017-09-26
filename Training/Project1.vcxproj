@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Project3\Stdout, Stderr - C.cpp" />
+    <ClCompile Include="Array Basics.cpp" />
+    <ClCompile Include="Auto Type.cpp" />
+    <ClCompile Include="Bit Fields.cpp" />
+    <ClCompile Include="Branching with goto, break and continue.cpp" />
+    <ClCompile Include="C Compiler.cpp" />
+    <ClCompile Include="C Preprocessor.cpp" />
+    <ClCompile Include="C Strings.cpp" />
+    <ClCompile Include="C++ Reference Type.cpp" />
+    <ClCompile Include="C++ Strings.cpp" />
+    <ClCompile Include="Comparing with conditionals.cpp" />
+    <ClCompile Include="conditional.c.cpp" />
+    <ClCompile Include="conditional.h.cpp" />
+    <ClCompile Include="Constructors and Destructors.cpp" />
+    <ClCompile Include="Data Members.cpp" />
+    <ClCompile Include="Defining a Class.cpp" />
+    <ClCompile Include="Defining A Function.cpp" />
+    <ClCompile Include="Defining Macros.cpp" />
+    <ClCompile Include="Definitions.cpp" />
+    <ClCompile Include="EnumC++.cpp" />
+    <ClCompile Include="EnumC.cpp" />
+    <ClCompile Include="Escape Sequences.cpp" />
+    <ClCompile Include="Exploring Implicits vs Explicit Constructor Types.cpp" />
+    <ClCompile Include="Floating Point.cpp" />
+    <ClCompile Include="Function Overload.cpp" />
+    <ClCompile Include="Function Pointers.cpp" />
+    <ClCompile Include="Functions.cpp" />
+    <ClCompile Include="Hellow World - C.cpp" />
+    <ClCompile Include="Hellow World - C++.cpp" />
+    <ClCompile Include="Identifier Scope and Storage Classses - Auto.cpp" />
+    <ClCompile Include="Integer Types.cpp" />
+    <ClCompile Include="Iterating with the for loop.cpp" />
+    <ClCompile Include="JumpC%28Needs Fixing for stdin%29.c" />
+    <ClCompile Include="JumpC++.cpp" />
+    <ClCompile Include="Line Continuation.cpp" />
+    <ClCompile Include="Macro Problems.cpp" />
+    <ClCompile Include="Namespace.cpp" />
+    <ClCompile Include="Overloading Operators with Functions.cpp" />
+    <ClCompile Include="Overloading Operators with Member Functions.cpp" />
+    <ClCompile Include="Overloading Operators with non-Member Functions.cpp" />
+    <ClCompile Include="Passing Parameters to a Function.cpp" />
+    <ClCompile Include="Pointer Rules.cpp" />
+    <ClCompile Include="Pointers.cpp" />
+    <ClCompile Include="Pointing to the Current Object with the this pointer.cpp" />
+    <ClCompile Include="Recursive Functions.cpp" />
+    <ClCompile Include="Statements and Expressions.cpp" />
+    <ClCompile Include="Stdin - C++.cpp" />
+    <ClCompile Include="Stdin - C.cpp" />
+    <ClCompile Include="Stdout, Stderr - C++.cpp" />
+    <ClCompile Include="Storage Class - Extern - Calling.cpp" />
+    <ClCompile Include="Storage Class - Register.cpp" />
+    <ClCompile Include="Storage Class - Static.cpp" />
+    <ClCompile Include="Storage Class - Extern - Values.cpp" />
+    <ClCompile Include="Strings - C.cpp" />
+    <ClCompile Include="Structured Data.cpp" />
+    <ClCompile Include="Unions.cpp" />
+    <ClCompile Include="Using automatic and static variables.cpp" />
+    <ClCompile Include="Using Conversion Operators.cpp" />
+    <ClCompile Include="Using Functions.cpp" />
+    <ClCompile Include="Using Switch Statements.cpp" />
+    <ClCompile Include="Using while and do loops.cpp" />
+    <ClCompile Include="Variadic Functions.cpp" />
+    <ClCompile Include="Void Pointer.c" />
+    <ClCompile Include="Void Pointer.cpp" />
+    <ClCompile Include="Void Type.cpp" />
+    <ClCompile Include="Working with Member Functions.cpp" />
+    <ClCompile Include="Working with Qualifiers.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Including Files Only Once.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E21CC288-39C9-4A60-959D-705869119EF1}</ProjectGuid>
+    <RootNamespace>Project1</RootNamespace>
+    <ProjectName>Training</ProjectName>
+    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

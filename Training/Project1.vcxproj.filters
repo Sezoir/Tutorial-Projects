@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Excersise Files">
+      <UniqueIdentifier>{12d9611d-3e44-40dd-9023-a984119755ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Excersise Files\Chap 12">
+      <UniqueIdentifier>{6291b810-768c-4a94-8d9f-0e4d54924fa7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Excersise Files\Chap 3">
+      <UniqueIdentifier>{3230fe82-72d4-4bc6-9387-c3ec5911e391}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Excersise Files\Chap 4">
+      <UniqueIdentifier>{916a7ebe-397e-474b-93a4-b2bae85d3c22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Excersise Files\Chap 5">
+      <UniqueIdentifier>{0f4fe6fe-2387-4e7c-bdcb-8fa8f0ca1e5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Excersise Files\Chap 6">
+      <UniqueIdentifier>{6ab86e86-7646-4704-bafd-50e9b1e208ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Excersise Files\Chap 7">
+      <UniqueIdentifier>{2bdf300c-61c2-40c4-8221-aab03bb89152}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Excersise Files\Chap 8">
+      <UniqueIdentifier>{79089d5e-cc92-435a-91e1-38d7cfe24745}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Excersise Files\Chap 14">
+      <UniqueIdentifier>{705ae49c-7f34-4b57-9dda-616a1d0970e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Excersise Files\Chap 9">
+      <UniqueIdentifier>{1935221c-2a8a-46eb-8ca7-514e0453e637}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Excersise Files\Chap 10">
+      <UniqueIdentifier>{851e379a-b61f-4dd2-bd2b-bf7a08cd5afd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Excersise Files\Chap 11">
+      <UniqueIdentifier>{ea84dc6c-99ed-4ceb-8644-a29febb89142}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Excersise Files\Chap 13">
+      <UniqueIdentifier>{b1e7322a-107f-4f07-b329-63e9b617c483}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Excersise Files\Definitions">
+      <UniqueIdentifier>{84a40186-609b-45d1-bbf2-95ec167fd2bc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Hellow World - C++.cpp">
+      <Filter>Excersise Files\Chap 3</Filter>
+    </ClCompile>
+    <ClCompile Include="Hellow World - C.cpp">
+      <Filter>Excersise Files\Chap 3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Project3\Stdout, Stderr - C.cpp">
+      <Filter>Excersise Files\Chap 3</Filter>
+    </ClCompile>
+    <ClCompile Include="Stdout, Stderr - C++.cpp">
+      <Filter>Excersise Files\Chap 3</Filter>
+    </ClCompile>
+    <ClCompile Include="Stdin - C.cpp">
+      <Filter>Excersise Files\Chap 3</Filter>
+    </ClCompile>
+    <ClCompile Include="Stdin - C++.cpp">
+      <Filter>Excersise Files\Chap 3</Filter>
+    </ClCompile>
+    <ClCompile Include="Statements and Expressions.cpp">
+      <Filter>Excersise Files\Chap 4</Filter>
+    </ClCompile>
+    <ClCompile Include="Identifier Scope and Storage Classses - Auto.cpp">
+      <Filter>Excersise Files\Chap 4</Filter>
+    </ClCompile>
+    <ClCompile Include="Storage Class - Static.cpp">
+      <Filter>Excersise Files\Chap 4</Filter>
+    </ClCompile>
+    <ClCompile Include="Storage Class - Register.cpp">
+      <Filter>Excersise Files\Chap 4</Filter>
+    </ClCompile>
+    <ClCompile Include="Storage Class - Extern - Values.cpp">
+      <Filter>Excersise Files\Chap 4</Filter>
+    </ClCompile>
+    <ClCompile Include="Storage Class - Extern - Calling.cpp">
+      <Filter>Excersise Files\Chap 4</Filter>
+    </ClCompile>
+    <ClCompile Include="Pointers.cpp">
+      <Filter>Excersise Files\Chap 4</Filter>
+    </ClCompile>
+    <ClCompile Include="Array Basics.cpp">
+      <Filter>Excersise Files\Chap 4</Filter>
+    </ClCompile>
+    <ClCompile Include="Strings - C.cpp">
+      <Filter>Excersise Files\Chap 4</Filter>
+    </ClCompile>
+    <ClCompile Include="Comparing with conditionals.cpp">
+      <Filter>Excersise Files\Chap 4</Filter>
+    </ClCompile>
+    <ClCompile Include="Using Switch Statements.cpp">
+      <Filter>Excersise Files\Chap 4</Filter>
+    </ClCompile>
+    <ClCompile Include="Using while and do loops.cpp">
+      <Filter>Excersise Files\Chap 4</Filter>
+    </ClCompile>
+    <ClCompile Include="Iterating with the for loop.cpp">
+      <Filter>Excersise Files\Chap 4</Filter>
+    </ClCompile>
+    <ClCompile Include="Using Functions.cpp">
+      <Filter>Excersise Files\Chap 4</Filter>
+    </ClCompile>
+    <ClCompile Include="Branching with goto, break and continue.cpp">
+      <Filter>Excersise Files\Chap 4</Filter>
+    </ClCompile>
+    <ClCompile Include="C Compiler.cpp">
+      <Filter>Excersise Files\Chap 5</Filter>
+    </ClCompile>
+    <ClCompile Include="C Preprocessor.cpp">
+      <Filter>Excersise Files\Chap 5</Filter>
+    </ClCompile>
+    <ClCompile Include="conditional.c.cpp">
+      <Filter>Excersise Files\Chap 5</Filter>
+    </ClCompile>
+    <ClCompile Include="conditional.h.cpp">
+      <Filter>Excersise Files\Chap 5</Filter>
+    </ClCompile>
+    <ClCompile Include="Defining Macros.cpp">
+      <Filter>Excersise Files\Chap 5</Filter>
+    </ClCompile>
+    <ClCompile Include="Macro Problems.cpp">
+      <Filter>Excersise Files\Chap 5</Filter>
+    </ClCompile>
+    <ClCompile Include="Line Continuation.cpp">
+      <Filter>Excersise Files\Chap 5</Filter>
+    </ClCompile>
+    <ClCompile Include="Definitions.cpp">
+      <Filter>Excersise Files\Definitions</Filter>
+    </ClCompile>
+    <ClCompile Include="Integer Types.cpp">
+      <Filter>Excersise Files\Chap 6</Filter>
+    </ClCompile>
+    <ClCompile Include="Floating Point.cpp">
+      <Filter>Excersise Files\Chap 6</Filter>
+    </ClCompile>
+    <ClCompile Include="C Strings.cpp">
+      <Filter>Excersise Files\Chap 6</Filter>
+    </ClCompile>
+    <ClCompile Include="C++ Strings.cpp">
+      <Filter>Excersise Files\Chap 6</Filter>
+    </ClCompile>
+    <ClCompile Include="Escape Sequences.cpp">
+      <Filter>Excersise Files\Chap 6</Filter>
+    </ClCompile>
+    <ClCompile Include="Working with Qualifiers.cpp">
+      <Filter>Excersise Files\Chap 6</Filter>
+    </ClCompile>
+    <ClCompile Include="C++ Reference Type.cpp">
+      <Filter>Excersise Files\Chap 6</Filter>
+    </ClCompile>
+    <ClCompile Include="Structured Data.cpp">
+      <Filter>Excersise Files\Chap 6</Filter>
+    </ClCompile>
+    <ClCompile Include="Bit Fields.cpp">
+      <Filter>Excersise Files\Chap 6</Filter>
+    </ClCompile>
+    <ClCompile Include="EnumC.cpp">
+      <Filter>Excersise Files\Chap 6</Filter>
+    </ClCompile>
+    <ClCompile Include="EnumC++.cpp">
+      <Filter>Excersise Files\Chap 6</Filter>
+    </ClCompile>
+    <ClCompile Include="Unions.cpp">
+      <Filter>Excersise Files\Chap 6</Filter>
+    </ClCompile>
+    <ClCompile Include="Void Type.cpp">
+      <Filter>Excersise Files\Chap 6</Filter>
+    </ClCompile>
+    <ClCompile Include="Void Pointer.c">
+      <Filter>Excersise Files\Chap 6</Filter>
+    </ClCompile>
+    <ClCompile Include="Void Pointer.cpp">
+      <Filter>Excersise Files\Chap 6</Filter>
+    </ClCompile>
+    <ClCompile Include="Auto Type.cpp">
+      <Filter>Excersise Files\Chap 6</Filter>
+    </ClCompile>
+    <ClCompile Include="Pointer Rules.cpp">
+      <Filter>Excersise Files\Chap 7</Filter>
+    </ClCompile>
+    <ClCompile Include="Functions.cpp">
+      <Filter>Excersise Files\Chap 7</Filter>
+    </ClCompile>
+    <ClCompile Include="Defining A Function.cpp">
+      <Filter>Excersise Files\Chap 7</Filter>
+    </ClCompile>
+    <ClCompile Include="Passing Parameters to a Function.cpp">
+      <Filter>Excersise Files\Chap 7</Filter>
+    </ClCompile>
+    <ClCompile Include="Using automatic and static variables.cpp">
+      <Filter>Excersise Files\Chap 7</Filter>
+    </ClCompile>
+    <ClCompile Include="Function Pointers.cpp">
+      <Filter>Excersise Files\Chap 7</Filter>
+    </ClCompile>
+    <ClCompile Include="JumpC%28Needs Fixing for stdin%29.c">
+      <Filter>Excersise Files\Chap 7</Filter>
+    </ClCompile>
+    <ClCompile Include="JumpC++.cpp">
+      <Filter>Excersise Files\Chap 7</Filter>
+    </ClCompile>
+    <ClCompile Include="Function Overload.cpp">
+      <Filter>Excersise Files\Chap 7</Filter>
+    </ClCompile>
+    <ClCompile Include="Overloading Operators with Functions.cpp">
+      <Filter>Excersise Files\Chap 7</Filter>
+    </ClCompile>
+    <ClCompile Include="Variadic Functions.cpp">
+      <Filter>Excersise Files\Chap 7</Filter>
+    </ClCompile>
+    <ClCompile Include="Recursive Functions.cpp">
+      <Filter>Excersise Files\Chap 7</Filter>
+    </ClCompile>
+    <ClCompile Include="Namespace.cpp">
+      <Filter>Excersise Files\Chap 8</Filter>
+    </ClCompile>
+    <ClCompile Include="Defining a Class.cpp">
+      <Filter>Excersise Files\Chap 8</Filter>
+    </ClCompile>
+    <ClCompile Include="Data Members.cpp">
+      <Filter>Excersise Files\Chap 8</Filter>
+    </ClCompile>
+    <ClCompile Include="Working with Member Functions.cpp">
+      <Filter>Excersise Files\Chap 8</Filter>
+    </ClCompile>
+    <ClCompile Include="Pointing to the Current Object with the this pointer.cpp">
+      <Filter>Excersise Files\Chap 8</Filter>
+    </ClCompile>
+    <ClCompile Include="Constructors and Destructors.cpp">
+      <Filter>Excersise Files\Chap 8</Filter>
+    </ClCompile>
+    <ClCompile Include="Exploring Implicits vs Explicit Constructor Types.cpp">
+      <Filter>Excersise Files\Chap 8</Filter>
+    </ClCompile>
+    <ClCompile Include="Overloading Operators with Member Functions.cpp">
+      <Filter>Excersise Files\Chap 8</Filter>
+    </ClCompile>
+    <ClCompile Include="Overloading Operators with non-Member Functions.cpp">
+      <Filter>Excersise Files\Chap 8</Filter>
+    </ClCompile>
+    <ClCompile Include="Using Conversion Operators.cpp">
+      <Filter>Excersise Files\Chap 8</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Including Files Only Once.h">
+      <Filter>Excersise Files\Chap 5</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
