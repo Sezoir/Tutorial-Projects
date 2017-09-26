@@ -2,7 +2,7 @@
 void main()
 {
 
-	int ia[5]; // This is an array, which will allow for 6 intergers to be stored in it.
+	int ia[5]; // This is an array, which will allow for 6 integers to be stored in it.
 
 	ia[0] = 1; // The array will always start at 0
 
