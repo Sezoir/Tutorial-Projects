@@ -25,6 +25,7 @@
     <ClCompile Include="conditional.c.cpp" />
     <ClCompile Include="conditional.h.cpp" />
     <ClCompile Include="Constructors and Destructors.cpp" />
+    <ClCompile Include="Creating Function Objects.cpp" />
     <ClCompile Include="Data Members.cpp" />
     <ClCompile Include="Defining a Class.cpp" />
     <ClCompile Include="Defining A Function.cpp" />

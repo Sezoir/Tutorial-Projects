@@ -246,6 +246,9 @@
     <ClCompile Include="Using Conversion Operators.cpp">
       <Filter>Excersise Files\Chap 8</Filter>
     </ClCompile>
+    <ClCompile Include="Creating Function Objects.cpp">
+      <Filter>Excersise Files\Chap 8</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Including Files Only Once.h">
