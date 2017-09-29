@@ -270,6 +270,21 @@
     <ClCompile Include="Bitwise Operators.cpp">
       <Filter>Excersise Files\Chap 7</Filter>
     </ClCompile>
+    <ClCompile Include="Compound Assignment Operators.cpp">
+      <Filter>Excersise Files\Chap 7</Filter>
+    </ClCompile>
+    <ClCompile Include="Subscript Operator.cpp">
+      <Filter>Excersise Files\Chap 7</Filter>
+    </ClCompile>
+    <ClCompile Include="Using Pointers, Members, and Indirection Operators.cpp">
+      <Filter>Excersise Files\Chap 7</Filter>
+    </ClCompile>
+    <ClCompile Include="Exploring the Function Call Operator.cpp">
+      <Filter>Excersise Files\Chap 7</Filter>
+    </ClCompile>
+    <ClCompile Include="Ternary Condition Operator.cpp">
+      <Filter>Excersise Files\Chap 7</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Including Files Only Once.h">

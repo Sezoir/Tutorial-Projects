@@ -25,6 +25,7 @@
     <ClCompile Include="C++ Strings.cpp" />
     <ClCompile Include="Comparing with conditionals.cpp" />
     <ClCompile Include="Comparison Operators.cpp" />
+    <ClCompile Include="Compound Assignment Operators.cpp" />
     <ClCompile Include="conditional.c.cpp" />
     <ClCompile Include="conditional.h.cpp" />
     <ClCompile Include="Constructors and Destructors.cpp" />
@@ -40,6 +41,7 @@
     <ClCompile Include="Escape Sequences.cpp" />
     <ClCompile Include="Exploring Implicits vs Explicit Constructor Types.cpp" />
     <ClCompile Include="Exploring the Assignment Operator.cpp" />
+    <ClCompile Include="Exploring the Function Call Operator.cpp" />
     <ClCompile Include="Floating Point.cpp" />
     <ClCompile Include="Function Overload.cpp" />
     <ClCompile Include="Function Pointers.cpp" />
@@ -74,10 +76,13 @@
     <ClCompile Include="Storage Class - Extern - Values.cpp" />
     <ClCompile Include="Strings - C.cpp" />
     <ClCompile Include="Structured Data.cpp" />
+    <ClCompile Include="Subscript Operator.cpp" />
+    <ClCompile Include="Ternary Condition Operator.cpp" />
     <ClCompile Include="Unions.cpp" />
     <ClCompile Include="Using automatic and static variables.cpp" />
     <ClCompile Include="Using Conversion Operators.cpp" />
     <ClCompile Include="Using Functions.cpp" />
+    <ClCompile Include="Using Pointers, Members, and Indirection Operators.cpp" />
     <ClCompile Include="Using Switch Statements.cpp" />
     <ClCompile Include="Using while and do loops.cpp" />
     <ClCompile Include="Variadic Functions.cpp" />
