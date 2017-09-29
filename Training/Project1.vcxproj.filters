@@ -19,17 +19,8 @@
     <Filter Include="Excersise Files\Chap 6">
       <UniqueIdentifier>{6ab86e86-7646-4704-bafd-50e9b1e208ac}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Excersise Files\Chap 7">
-      <UniqueIdentifier>{2bdf300c-61c2-40c4-8221-aab03bb89152}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Excersise Files\Chap 8">
-      <UniqueIdentifier>{79089d5e-cc92-435a-91e1-38d7cfe24745}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Excersise Files\Chap 14">
       <UniqueIdentifier>{705ae49c-7f34-4b57-9dda-616a1d0970e9}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Excersise Files\Chap 9">
-      <UniqueIdentifier>{1935221c-2a8a-46eb-8ca7-514e0453e637}</UniqueIdentifier>
     </Filter>
     <Filter Include="Excersise Files\Chap 10">
       <UniqueIdentifier>{851e379a-b61f-4dd2-bd2b-bf7a08cd5afd}</UniqueIdentifier>
@@ -42,6 +33,15 @@
     </Filter>
     <Filter Include="Excersise Files\Definitions">
       <UniqueIdentifier>{84a40186-609b-45d1-bbf2-95ec167fd2bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Excersise Files\Chap 9">
+      <UniqueIdentifier>{79089d5e-cc92-435a-91e1-38d7cfe24745}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Excersise Files\Chap 8">
+      <UniqueIdentifier>{2bdf300c-61c2-40c4-8221-aab03bb89152}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Excersise Files\Chap 7">
+      <UniqueIdentifier>{f89fd45a-d883-472c-b564-e7ce05f377f6}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -181,73 +181,94 @@
       <Filter>Excersise Files\Chap 6</Filter>
     </ClCompile>
     <ClCompile Include="Pointer Rules.cpp">
-      <Filter>Excersise Files\Chap 7</Filter>
+      <Filter>Excersise Files\Chap 8</Filter>
     </ClCompile>
     <ClCompile Include="Functions.cpp">
-      <Filter>Excersise Files\Chap 7</Filter>
+      <Filter>Excersise Files\Chap 8</Filter>
     </ClCompile>
     <ClCompile Include="Defining A Function.cpp">
-      <Filter>Excersise Files\Chap 7</Filter>
+      <Filter>Excersise Files\Chap 8</Filter>
     </ClCompile>
     <ClCompile Include="Passing Parameters to a Function.cpp">
-      <Filter>Excersise Files\Chap 7</Filter>
+      <Filter>Excersise Files\Chap 8</Filter>
     </ClCompile>
     <ClCompile Include="Using automatic and static variables.cpp">
-      <Filter>Excersise Files\Chap 7</Filter>
+      <Filter>Excersise Files\Chap 8</Filter>
     </ClCompile>
     <ClCompile Include="Function Pointers.cpp">
-      <Filter>Excersise Files\Chap 7</Filter>
+      <Filter>Excersise Files\Chap 8</Filter>
     </ClCompile>
     <ClCompile Include="JumpC%28Needs Fixing for stdin%29.c">
-      <Filter>Excersise Files\Chap 7</Filter>
+      <Filter>Excersise Files\Chap 8</Filter>
     </ClCompile>
     <ClCompile Include="JumpC++.cpp">
-      <Filter>Excersise Files\Chap 7</Filter>
+      <Filter>Excersise Files\Chap 8</Filter>
     </ClCompile>
     <ClCompile Include="Function Overload.cpp">
-      <Filter>Excersise Files\Chap 7</Filter>
+      <Filter>Excersise Files\Chap 8</Filter>
     </ClCompile>
     <ClCompile Include="Overloading Operators with Functions.cpp">
-      <Filter>Excersise Files\Chap 7</Filter>
+      <Filter>Excersise Files\Chap 8</Filter>
     </ClCompile>
     <ClCompile Include="Variadic Functions.cpp">
-      <Filter>Excersise Files\Chap 7</Filter>
+      <Filter>Excersise Files\Chap 8</Filter>
     </ClCompile>
     <ClCompile Include="Recursive Functions.cpp">
-      <Filter>Excersise Files\Chap 7</Filter>
+      <Filter>Excersise Files\Chap 8</Filter>
     </ClCompile>
     <ClCompile Include="Namespace.cpp">
-      <Filter>Excersise Files\Chap 8</Filter>
+      <Filter>Excersise Files\Chap 9</Filter>
     </ClCompile>
     <ClCompile Include="Defining a Class.cpp">
-      <Filter>Excersise Files\Chap 8</Filter>
+      <Filter>Excersise Files\Chap 9</Filter>
     </ClCompile>
     <ClCompile Include="Data Members.cpp">
-      <Filter>Excersise Files\Chap 8</Filter>
+      <Filter>Excersise Files\Chap 9</Filter>
     </ClCompile>
     <ClCompile Include="Working with Member Functions.cpp">
-      <Filter>Excersise Files\Chap 8</Filter>
+      <Filter>Excersise Files\Chap 9</Filter>
     </ClCompile>
     <ClCompile Include="Pointing to the Current Object with the this pointer.cpp">
-      <Filter>Excersise Files\Chap 8</Filter>
+      <Filter>Excersise Files\Chap 9</Filter>
     </ClCompile>
     <ClCompile Include="Constructors and Destructors.cpp">
-      <Filter>Excersise Files\Chap 8</Filter>
+      <Filter>Excersise Files\Chap 9</Filter>
     </ClCompile>
     <ClCompile Include="Exploring Implicits vs Explicit Constructor Types.cpp">
-      <Filter>Excersise Files\Chap 8</Filter>
+      <Filter>Excersise Files\Chap 9</Filter>
     </ClCompile>
     <ClCompile Include="Overloading Operators with Member Functions.cpp">
-      <Filter>Excersise Files\Chap 8</Filter>
+      <Filter>Excersise Files\Chap 9</Filter>
     </ClCompile>
     <ClCompile Include="Overloading Operators with non-Member Functions.cpp">
-      <Filter>Excersise Files\Chap 8</Filter>
+      <Filter>Excersise Files\Chap 9</Filter>
     </ClCompile>
     <ClCompile Include="Using Conversion Operators.cpp">
-      <Filter>Excersise Files\Chap 8</Filter>
+      <Filter>Excersise Files\Chap 9</Filter>
     </ClCompile>
     <ClCompile Include="Creating Function Objects.cpp">
-      <Filter>Excersise Files\Chap 8</Filter>
+      <Filter>Excersise Files\Chap 9</Filter>
+    </ClCompile>
+    <ClCompile Include="Creating and Destroying Objects with the new And destory Operator.cpp">
+      <Filter>Excersise Files\Chap 9</Filter>
+    </ClCompile>
+    <ClCompile Include="Exploring the Assignment Operator.cpp">
+      <Filter>Excersise Files\Chap 7</Filter>
+    </ClCompile>
+    <ClCompile Include="Arithmetic Operators.cpp">
+      <Filter>Excersise Files\Chap 7</Filter>
+    </ClCompile>
+    <ClCompile Include="Increment and Decrement.cpp">
+      <Filter>Excersise Files\Chap 7</Filter>
+    </ClCompile>
+    <ClCompile Include="Comparison Operators.cpp">
+      <Filter>Excersise Files\Chap 7</Filter>
+    </ClCompile>
+    <ClCompile Include="Logical Operators.cpp">
+      <Filter>Excersise Files\Chap 7</Filter>
+    </ClCompile>
+    <ClCompile Include="Bitwise Operators.cpp">
+      <Filter>Excersise Files\Chap 7</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

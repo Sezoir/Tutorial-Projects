@@ -12,9 +12,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Project3\Stdout, Stderr - C.cpp" />
+    <ClCompile Include="Arithmetic Operators.cpp" />
     <ClCompile Include="Array Basics.cpp" />
     <ClCompile Include="Auto Type.cpp" />
     <ClCompile Include="Bit Fields.cpp" />
+    <ClCompile Include="Bitwise Operators.cpp" />
     <ClCompile Include="Branching with goto, break and continue.cpp" />
     <ClCompile Include="C Compiler.cpp" />
     <ClCompile Include="C Preprocessor.cpp" />
@@ -22,9 +24,11 @@
     <ClCompile Include="C++ Reference Type.cpp" />
     <ClCompile Include="C++ Strings.cpp" />
     <ClCompile Include="Comparing with conditionals.cpp" />
+    <ClCompile Include="Comparison Operators.cpp" />
     <ClCompile Include="conditional.c.cpp" />
     <ClCompile Include="conditional.h.cpp" />
     <ClCompile Include="Constructors and Destructors.cpp" />
+    <ClCompile Include="Creating and Destroying Objects with the new And destory Operator.cpp" />
     <ClCompile Include="Creating Function Objects.cpp" />
     <ClCompile Include="Data Members.cpp" />
     <ClCompile Include="Defining a Class.cpp" />
@@ -35,6 +39,7 @@
     <ClCompile Include="EnumC.cpp" />
     <ClCompile Include="Escape Sequences.cpp" />
     <ClCompile Include="Exploring Implicits vs Explicit Constructor Types.cpp" />
+    <ClCompile Include="Exploring the Assignment Operator.cpp" />
     <ClCompile Include="Floating Point.cpp" />
     <ClCompile Include="Function Overload.cpp" />
     <ClCompile Include="Function Pointers.cpp" />
@@ -42,11 +47,13 @@
     <ClCompile Include="Hellow World - C.cpp" />
     <ClCompile Include="Hellow World - C++.cpp" />
     <ClCompile Include="Identifier Scope and Storage Classses - Auto.cpp" />
+    <ClCompile Include="Increment and Decrement.cpp" />
     <ClCompile Include="Integer Types.cpp" />
     <ClCompile Include="Iterating with the for loop.cpp" />
     <ClCompile Include="JumpC%28Needs Fixing for stdin%29.c" />
     <ClCompile Include="JumpC++.cpp" />
     <ClCompile Include="Line Continuation.cpp" />
+    <ClCompile Include="Logical Operators.cpp" />
     <ClCompile Include="Macro Problems.cpp" />
     <ClCompile Include="Namespace.cpp" />
     <ClCompile Include="Overloading Operators with Functions.cpp" />

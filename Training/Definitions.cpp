@@ -49,13 +49,13 @@ Type Qualifier - The type qualifiers include const (Which make the variable cann
 Bit Fields - Bit fields provide the ability to pack multiple values into less space than they would normally take.
 
 ------------------------------------------------------------------------------------------------------
-Chapter 7
+Chapter 8
 ------------------------------------------------------------------------------------------------------
 Functions:	- Functions are blocks of codes that may be called by and may return values to other code.
 			- Functions allow you generalise and modularise your code, by creating containers for logical subsets of code and by allowing code to be reused.
 
 ------------------------------------------------------------------------------------------------------
-Chapter 8
+Chapter 9
 ------------------------------------------------------------------------------------------------------
 Classes:	- Classes are like custom data types, they are designed to be used just like the fundamental types used in the C++ language.
 			- The definition of a class using the "class" keyword is the class itself. You can use the class to declare an object. The object is also called an instance of the class.
