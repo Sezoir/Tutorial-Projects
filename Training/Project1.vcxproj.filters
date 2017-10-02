@@ -303,6 +303,12 @@
     <ClCompile Include="Operator Synonyms.cpp">
       <Filter>Excersise Files\Chap 7</Filter>
     </ClCompile>
+    <ClCompile Include="Reporting Errors with Exceptions.cpp">
+      <Filter>Excersise Files\Chap 9</Filter>
+    </ClCompile>
+    <ClCompile Include="Class Inheritance.cpp">
+      <Filter>Excersise Files\Chap 10</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Including Files Only Once.h">

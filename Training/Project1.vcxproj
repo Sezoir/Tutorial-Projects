@@ -23,6 +23,7 @@
     <ClCompile Include="C Strings.cpp" />
     <ClCompile Include="C++ Reference Type.cpp" />
     <ClCompile Include="C++ Strings.cpp" />
+    <ClCompile Include="Class Inheritance.cpp" />
     <ClCompile Include="Comparing with conditionals.cpp" />
     <ClCompile Include="Comparison Operators.cpp" />
     <ClCompile Include="Compound Assignment Operators.cpp" />
@@ -70,6 +71,7 @@
     <ClCompile Include="Pointers.cpp" />
     <ClCompile Include="Pointing to the Current Object with the this pointer.cpp" />
     <ClCompile Include="Recursive Functions.cpp" />
+    <ClCompile Include="Reporting Errors with Exceptions.cpp" />
     <ClCompile Include="SizeOf Operator.cpp" />
     <ClCompile Include="Statements and Expressions.cpp" />
     <ClCompile Include="Stdin - C++.cpp" />

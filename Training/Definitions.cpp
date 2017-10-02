@@ -73,6 +73,15 @@ Constructors		- Constructos and destructors are special function members that ar
 and destructors		- A consturctor is called when an object is created. There may several constructor defined but only one is called depending of how the object is created.
 					- A destructor is called when an object is destroyed. Thre may only be one destructor defined.
 
+-------------------------------------------------------------------------------------------------------
+Chapter 10
+-------------------------------------------------------------------------------------------------------
+Class Inheritance:	- Class inheritance is the ability to reuse code that is derived from a base class.
+					- The derived class will typically inherit and build upon some of the data of the function members of the 
+					  base class.
+
+------------------------------------------------------------------------------------------------------
+Principles
 ------------------------------------------------------------------------------------------------------
 Name:		- What is it? i.e Event, Document Employee
 			- Sometimes referred as the "type".
@@ -91,13 +100,9 @@ Class:		- A class describes what an object will be, but is not the object itesel
 			- So we can define a class once (like a blueprint), and then create 1000's of objects based from the one class.
 			- A class has a name, and also describes the attributes and the behaviour of the class.
 
-
-
-
-
-
-
-
+Abstraction:	- Abstraction means that we focus on the essential qualities of something, rather than 1 specific example.
+				- For example, if we have to different bank accounts, the essentials(abstraction) for any bank account would be
+				  the bank account numbers, the balance.
 
 
 

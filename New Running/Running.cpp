@@ -1,5 +1,4 @@
-#include <iostream> 	   
-using namespace std;
+#include <iostream>
 
 void main()
 {
@@ -7,4 +6,3 @@ void main()
 
 	while (true) {};
 }
-
