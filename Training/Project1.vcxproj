@@ -36,6 +36,7 @@
     <ClCompile Include="Defining A Function.cpp" />
     <ClCompile Include="Defining Macros.cpp" />
     <ClCompile Include="Definitions.cpp" />
+    <ClCompile Include="Determining the Type of an Object with typeid.cpp" />
     <ClCompile Include="EnumC++.cpp" />
     <ClCompile Include="EnumC.cpp" />
     <ClCompile Include="Escape Sequences.cpp" />
@@ -58,6 +59,9 @@
     <ClCompile Include="Logical Operators.cpp" />
     <ClCompile Include="Macro Problems.cpp" />
     <ClCompile Include="Namespace.cpp" />
+    <ClCompile Include="New and Delete Operators.cpp" />
+    <ClCompile Include="Operator Precedence.cpp" />
+    <ClCompile Include="Operator Synonyms.cpp" />
     <ClCompile Include="Overloading Operators with Functions.cpp" />
     <ClCompile Include="Overloading Operators with Member Functions.cpp" />
     <ClCompile Include="Overloading Operators with non-Member Functions.cpp" />
@@ -66,6 +70,7 @@
     <ClCompile Include="Pointers.cpp" />
     <ClCompile Include="Pointing to the Current Object with the this pointer.cpp" />
     <ClCompile Include="Recursive Functions.cpp" />
+    <ClCompile Include="SizeOf Operator.cpp" />
     <ClCompile Include="Statements and Expressions.cpp" />
     <ClCompile Include="Stdin - C++.cpp" />
     <ClCompile Include="Stdin - C.cpp" />
@@ -84,6 +89,7 @@
     <ClCompile Include="Using Functions.cpp" />
     <ClCompile Include="Using Pointers, Members, and Indirection Operators.cpp" />
     <ClCompile Include="Using Switch Statements.cpp" />
+    <ClCompile Include="Using the Cast Operator.cpp" />
     <ClCompile Include="Using while and do loops.cpp" />
     <ClCompile Include="Variadic Functions.cpp" />
     <ClCompile Include="Void Pointer.c" />

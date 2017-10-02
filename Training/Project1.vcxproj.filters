@@ -285,6 +285,24 @@
     <ClCompile Include="Ternary Condition Operator.cpp">
       <Filter>Excersise Files\Chap 7</Filter>
     </ClCompile>
+    <ClCompile Include="SizeOf Operator.cpp">
+      <Filter>Excersise Files\Chap 7</Filter>
+    </ClCompile>
+    <ClCompile Include="Determining the Type of an Object with typeid.cpp">
+      <Filter>Excersise Files\Chap 7</Filter>
+    </ClCompile>
+    <ClCompile Include="Using the Cast Operator.cpp">
+      <Filter>Excersise Files\Chap 7</Filter>
+    </ClCompile>
+    <ClCompile Include="New and Delete Operators.cpp">
+      <Filter>Excersise Files\Chap 7</Filter>
+    </ClCompile>
+    <ClCompile Include="Operator Precedence.cpp">
+      <Filter>Excersise Files\Chap 7</Filter>
+    </ClCompile>
+    <ClCompile Include="Operator Synonyms.cpp">
+      <Filter>Excersise Files\Chap 7</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Including Files Only Once.h">
