@@ -147,4 +147,86 @@ Polymorphism:	- This lets you automatically do the create behaviour even if what
 				  withdraw method without knowing which class it was instantiated from due to the behaviour of each one.
 				- Polymorphism is often only need when it is needed for a class and is not often used.
 
+Process for creation:	- Gather requirements: What does the app need to do?
+of programs				- Describe the app: Build a simple narative on how you should use the app.
+						- Identify main objects: Pick the most important ideas.
+						- Describe the interactions: Formally describe the interactions between those objects.
+						- Create a class diagram: Visual representation of the classes.	
+
+F.U.R.P.S:	- Functional requirements.
+			- Usability requirements.
+			- Reliability requirements. 
+			- Performance requirements.
+			- Supportability requirements.
+
+Unified Modeling Language:	- A UML is not a programming language, but is a graphical notation specifically for drawing an object 
+							  orientated system.
+
+Use Case:	- Title: Short Describes the goal.
+			- Actor: The person who wants the goal.
+			- Scenario: How to get there use short sentences of verbs.
+			- Extensions: Describes steps for altenative flows.
+			- Pre-condition: What must be true for this use case.
+			* Note that there are more properties of a use case, however the ones mentioned are the most important.
+
+Actor:	- Anyone with behaviour with a goal outside of the system.
+		* Note that External systems are classed as actors (do you need to communicate between external systems).
+
+Use Stories:	- This is an informal, short hand way of brainstorming lots of ideas very quickly.
+				- In terms of process, it is very familar to use cases, however should not be considered the same or just a smaller
+				  use case.
+
+Identifying:	- An easy way of identifying object is to scan through your use cases for nouns and highlight any you find and then 
+Objects			  debating whether its an object.
+
+Identifying     :	- Just like with identifying objects, you scan through you cases but instead for verbs.
+Responsibilities	- This is about the behaviours of what will become objects in our system.
+					- This part is not just about determining behaviours, but also determining use responsibilities these behaviours
+					  are for.
+					- I.e if a customer object wants to know something about the order object, the behaviour should belong to the order
+					  object and the customer should call the order object for the information.
+					- You will need to be carefull about assigning responsibilities as you don't want to have a lot of behaviours on
+					  the initiater.
+
+Class Responsibility:	- This is similar to what you look for in the previous method. 
+Collaboration			- This is based on cards with each one representing a class.
+						- They have 3 things on the cards:
+							- Class Name.
+							- Responsibilities.
+							- Collarborators (Other classes it interacts with).
+						- The advantage of this is that if you end up needing more space than just a small card, its a clue that you
+						  may need to redesign that class to spread responsibilities.
+
+Aggregation:	- This describes a "has a" relationship between 2 objects.
+				- When creating an object with contained objects, you must make sure that each of the contained objects are destroyed
+				  if the owning object is destroyed.
+
+Composition:	- Composition is the same as aggregation with one difference, composition implies ownership.
+				- This means that if the owning object is destroyed, so are the contained objects. 
+
+Sequence:	- The sequence diagram does not contain the entire system, but just 1 part of it.
+Diagram		- Just one particular action between a few objects and one scenario.
+			- These diagrams are for sketching out an idea that is not completely clear already.
+
+---------------------------------------------------------------------------------------------------
+Extra
+---------------------------------------------------------------------------------------------------
+UML Tools:	- Diagramming Tools:
+				- Microsoft Visio (Windows), 
+				- OmniGraffle (Mac).
+			- Web-based Diagramming:
+				- gliffy.com, 
+				- creately.com, 
+				- lucidchart.com.
+			- Programming Tools: IDE based :
+				- Visual Studio,
+				- Eclipse with UMLTools.
+			- Commercial Products:
+				- Altova UModel,
+				- Sparx Enterprise Architect,
+				- Visual Paradigm.
+			- Open-Source
+				- ArgoUML, 
+				- Dia.
+
 */

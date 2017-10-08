@@ -12,6 +12,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Project3\Stdout, Stderr - C.cpp" />
+    <ClCompile Include="Accessing the Base Class.cpp" />
     <ClCompile Include="Arithmetic Operators.cpp" />
     <ClCompile Include="Array Basics.cpp" />
     <ClCompile Include="Auto Type.cpp" />
@@ -42,9 +43,11 @@
     <ClCompile Include="EnumC.cpp" />
     <ClCompile Include="Escape Sequences.cpp" />
     <ClCompile Include="Exploring Implicits vs Explicit Constructor Types.cpp" />
+    <ClCompile Include="Exploring Overloading Methods and Polymorphism.cpp" />
     <ClCompile Include="Exploring the Assignment Operator.cpp" />
     <ClCompile Include="Exploring the Function Call Operator.cpp" />
     <ClCompile Include="Floating Point.cpp" />
+    <ClCompile Include="Friendship.cpp" />
     <ClCompile Include="Function Overload.cpp" />
     <ClCompile Include="Function Pointers.cpp" />
     <ClCompile Include="Functions.cpp" />
@@ -59,6 +62,7 @@
     <ClCompile Include="Line Continuation.cpp" />
     <ClCompile Include="Logical Operators.cpp" />
     <ClCompile Include="Macro Problems.cpp" />
+    <ClCompile Include="Multiple Inheritance.cpp" />
     <ClCompile Include="Namespace.cpp" />
     <ClCompile Include="New and Delete Operators.cpp" />
     <ClCompile Include="Operator Precedence.cpp" />
@@ -72,6 +76,7 @@
     <ClCompile Include="Pointing to the Current Object with the this pointer.cpp" />
     <ClCompile Include="Recursive Functions.cpp" />
     <ClCompile Include="Reporting Errors with Exceptions.cpp" />
+    <ClCompile Include="Simple Inheritance.cpp" />
     <ClCompile Include="SizeOf Operator.cpp" />
     <ClCompile Include="Statements and Expressions.cpp" />
     <ClCompile Include="Stdin - C++.cpp" />
@@ -84,13 +89,16 @@
     <ClCompile Include="Strings - C.cpp" />
     <ClCompile Include="Structured Data.cpp" />
     <ClCompile Include="Subscript Operator.cpp" />
+    <ClCompile Include="Template Function.cpp" />
     <ClCompile Include="Ternary Condition Operator.cpp" />
+    <ClCompile Include="Understanding Templates.cpp" />
     <ClCompile Include="Unions.cpp" />
     <ClCompile Include="Using automatic and static variables.cpp" />
     <ClCompile Include="Using Conversion Operators.cpp" />
     <ClCompile Include="Using Functions.cpp" />
     <ClCompile Include="Using Pointers, Members, and Indirection Operators.cpp" />
     <ClCompile Include="Using Switch Statements.cpp" />
+    <ClCompile Include="Using Templates for Joining Containers.cpp" />
     <ClCompile Include="Using the Cast Operator.cpp" />
     <ClCompile Include="Using while and do loops.cpp" />
     <ClCompile Include="Variadic Functions.cpp" />

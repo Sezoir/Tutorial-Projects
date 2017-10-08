@@ -309,6 +309,30 @@
     <ClCompile Include="Class Inheritance.cpp">
       <Filter>Excersise Files\Chap 10</Filter>
     </ClCompile>
+    <ClCompile Include="Simple Inheritance.cpp">
+      <Filter>Excersise Files\Chap 10</Filter>
+    </ClCompile>
+    <ClCompile Include="Friendship.cpp">
+      <Filter>Excersise Files\Chap 10</Filter>
+    </ClCompile>
+    <ClCompile Include="Accessing the Base Class.cpp">
+      <Filter>Excersise Files\Chap 10</Filter>
+    </ClCompile>
+    <ClCompile Include="Multiple Inheritance.cpp">
+      <Filter>Excersise Files\Chap 10</Filter>
+    </ClCompile>
+    <ClCompile Include="Exploring Overloading Methods and Polymorphism.cpp">
+      <Filter>Excersise Files\Chap 10</Filter>
+    </ClCompile>
+    <ClCompile Include="Understanding Templates.cpp">
+      <Filter>Excersise Files\Chap 11</Filter>
+    </ClCompile>
+    <ClCompile Include="Template Function.cpp">
+      <Filter>Excersise Files\Chap 11</Filter>
+    </ClCompile>
+    <ClCompile Include="Using Templates for Joining Containers.cpp">
+      <Filter>Excersise Files\Chap 11</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Including Files Only Once.h">
