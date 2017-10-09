@@ -70,7 +70,9 @@
     <ClCompile Include="Overloading Operators with Functions.cpp" />
     <ClCompile Include="Overloading Operators with Member Functions.cpp" />
     <ClCompile Include="Overloading Operators with non-Member Functions.cpp" />
+    <ClCompile Include="Overview of the C Standard Library.cpp" />
     <ClCompile Include="Passing Parameters to a Function.cpp" />
+    <ClCompile Include="Plain Text IO.cpp" />
     <ClCompile Include="Pointer Rules.cpp" />
     <ClCompile Include="Pointers.cpp" />
     <ClCompile Include="Pointing to the Current Object with the this pointer.cpp" />
@@ -88,6 +90,7 @@
     <ClCompile Include="Storage Class - Extern - Values.cpp" />
     <ClCompile Include="Strings - C.cpp" />
     <ClCompile Include="Structured Data.cpp" />
+    <ClCompile Include="Structured IO.cpp" />
     <ClCompile Include="Subscript Operator.cpp" />
     <ClCompile Include="Template Function.cpp" />
     <ClCompile Include="Ternary Condition Operator.cpp" />
@@ -98,6 +101,7 @@
     <ClCompile Include="Using Functions.cpp" />
     <ClCompile Include="Using Pointers, Members, and Indirection Operators.cpp" />
     <ClCompile Include="Using Switch Statements.cpp" />
+    <ClCompile Include="Using Template Classes.cpp" />
     <ClCompile Include="Using Templates for Joining Containers.cpp" />
     <ClCompile Include="Using the Cast Operator.cpp" />
     <ClCompile Include="Using while and do loops.cpp" />

@@ -333,6 +333,18 @@
     <ClCompile Include="Using Templates for Joining Containers.cpp">
       <Filter>Excersise Files\Chap 11</Filter>
     </ClCompile>
+    <ClCompile Include="Using Template Classes.cpp">
+      <Filter>Excersise Files\Chap 11</Filter>
+    </ClCompile>
+    <ClCompile Include="Overview of the C Standard Library.cpp">
+      <Filter>Excersise Files\Chap 12</Filter>
+    </ClCompile>
+    <ClCompile Include="Plain Text IO.cpp">
+      <Filter>Excersise Files\Chap 12</Filter>
+    </ClCompile>
+    <ClCompile Include="Structured IO.cpp">
+      <Filter>Excersise Files\Chap 12</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Including Files Only Once.h">

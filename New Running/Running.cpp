@@ -1,100 +1,57 @@
-#include <iostream>
-#include <string>
-#include <exception>
+#define _CRT_SECURE_NO_DEPRECATE
+#include <stdio.h>
+#include <string.h>	// Used for "strncpy".
+#include <stdint.h>	// Used for "uint8_t" type.
 
-class E :public std::exception
+enum {slen = 128};	// Defines a constant.
+
+struct s1
 {
-	E(){};
-	const char * msg;
-public:
-	explicit E(const char * s) throw() : msg(s) {};
-	const char * what() const throw() { return msg; };
+	uint8_t a;	// Used for when you want a byte that is being used as a integer.
+	uint8_t b;
+	char s[slen];
 };
-
-template <typename T>
-class Stack
-{
-private:
-	static const int defaultSize = 10;
-	static const int maxSize = 1000;
-	int _size;
-	int _top;
-	T * stackPtr;
-public:
-	explicit Stack(int);
-	~Stack() { delete[] stackPtr; };
-	T & push(const T &);
-	T & pop();
-	bool isEmpty() const{ return _top < 0; };
-	bool isFull() const { return _top >= _size - 1; };
-	int top() const { return _top; };
-	int size() const { return _size; };
-};
-
-template <typename T>
-Stack<T>::Stack (int s = defaultSize)
-{
-	if (s > maxSize || s < 1) throw E("Invalid Stack Size");
-	else _size = s;
-	stackPtr = new T[_size];
-	_top = -1;
-}
-
-template <typename T>
-T & Stack<T>::push(const T & i)
-{
-	if (isFull()) throw E("Stack Full")
-		return stackPtr[++_top] = i;
-}
-
-template <typename T>
-T & Stack<T>::pop()
-{
-	if (isEmpty()) throw E("Stack Empty");
-	return stackPtr[_top--];
-}
 
 void main()
 {
-	using namespace std;
-	Stack<int> si(5);
-	
-	cout << "si size: " << si.size() << endl;
-	cout << "si top: " << si.top() << endl;
-	si.push(1);
-	si.push(2);
-	si.push(3);
-	si.push(4);
-	si.push(5);
-	cout << "si top after pushes: " << si.top() << endl;
-	cout << "si is " << (si.isFull() ? " " : "not ") << "full" << endl;
+	const char *fn = "test2.bin";	// Use ".bin" to create a binary file for the write/read binary mode.
+	const char * str = "This is a literal C-String\n";
 
-	while (!si.isEmpty())
+	// Create/Read the file
+	printf("Writing file\n");
+	FILE * fw = fopen(fn, "wb");	// "wb" means write binary mode.
+
+	struct s1 buf1;
+	for (int i = 0; i < 5; i++)	// Used to populate the buf1
 	{
-		cout << "popped " << si.pop() << endl;
+		buf1.a = i;
+		buf1.b = strlen(str);
+		strncpy(buf1.s, str, slen);	// Used incase the string is too long for the buffer, you can stop it and now overwrite your string.
+		fwrite(&buf1, sizeof(struct s1), 1, fw);	// "fwrite" is the binary equivalent of the "fputs". 
 	}
 
-	Stack<string> ss(5);
+	fclose(fw);
+	printf("Done.\n");
 
-	ss.push("one");
-	ss.push("two");
-	ss.push("three");
-	ss.push("four");
-	ss.push("five");
-
-	cout << "ss top after pushes: " << ss.top() << endl;
-	cout << "ss is " << (ss.isFull() ? " " : "not ") << "full" << endl;
-
-	while (!ss.isEmpty())
+	// Read the file
+	printf("Reading file\n");
+	FILE * fr = fopen(fn, "rb");
+	struct s1 buf2;
+	int rc;
+	while ((rc = fread(&buf2, sizeof(struct s1), 1, fr) ))	// "fread" is the binary equivalent of the "fgets"
 	{
-		cout << "popped " << ss.pop() << endl;
+		printf("a: %d, b: %d, s: %s", buf2.a, buf2.b, buf2.s);
 	}
 
-	while(true) {};
+	fclose(fr);
+	printf("Done.\n");
+
+	while (true) {};
 }
 
-
-
 /*
-	- Template classes are commonly used for operators on containers.
+	- Note that: 
+		- "strncpy" 3 arguments are: the destination of the string, string itself, maximum lenth of the buffer.
+		- "fwrite" 4 arguments are: pointer to the buf, size of the buffer, number of the buffers, file handle.
+		- "fread" 4 arguments are: pointer to the buf, size of the buffer, number of the buffers, file handle.
 */
