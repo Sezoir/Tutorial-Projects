@@ -345,6 +345,30 @@
     <ClCompile Include="Structured IO.cpp">
       <Filter>Excersise Files\Chap 12</Filter>
     </ClCompile>
+    <ClCompile Include="stdIO File Management.cpp">
+      <Filter>Excersise Files\Chap 12</Filter>
+    </ClCompile>
+    <ClCompile Include="Using Stdio for Unformatted Character IO.cpp">
+      <Filter>Excersise Files\Chap 12</Filter>
+    </ClCompile>
+    <ClCompile Include="Using stdio for formatted character IO.cpp">
+      <Filter>Excersise Files\Chap 12</Filter>
+    </ClCompile>
+    <ClCompile Include="Building String Functions.cpp">
+      <Filter>Excersise Files\Chap 12</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory Allocation.cpp">
+      <Filter>Excersise Files\Chap 12</Filter>
+    </ClCompile>
+    <ClCompile Include="Handling Error Systems.cpp">
+      <Filter>Excersise Files\Chap 12</Filter>
+    </ClCompile>
+    <ClCompile Include="Time and Date Functions.cpp">
+      <Filter>Excersise Files\Chap 12</Filter>
+    </ClCompile>
+    <ClCompile Include="Getting file information.cpp">
+      <Filter>Excersise Files\Chap 12</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Including Files Only Once.h">
